@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road intersection (by Mateusz R.)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+    
+    <main>
+        <canvas id="canvas" width="600" height="600"></canvas>
+        <button class="add-car-button-variant button-up" data-riding-from="up">Car from here</button>
+        <button class="add-car-button-variant button-down" data-riding-from="down">Car from here</button>
+        <button class="add-car-button-variant button-left" data-riding-from="left">Car from here</button>
+        <button class="add-car-button-variant button-right" data-riding-from="right">Car from here</button>
+        
+        <button class="button-traffic-signal"><u>Click here</u> to change traffic direction.<br>TRY COLLISION EVENT!</button>
+
+        <div class="signal-device signal-device-up"></div>
+        <div class="signal-device signal-device-down"></div>
+        <div class="signal-device signal-device-left"></div>
+        <div class="signal-device signal-device-right"></div>
+    </main>
+
+    <!-- info gdy mała rozdzielczość -->
+    <div class="rwd-info">Ze względu na wygodę korzystania z aplikacji, zalecane jest uruchomienie strony na urządzeniu o wyższej rozdzielczości np. na ekranie komputera.</div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
